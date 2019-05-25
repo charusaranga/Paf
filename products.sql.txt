@@ -1,0 +1,9 @@
+CREATE TABLE `selnbye`.`products` (
+  `productId` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  `productName` VARCHAR(45) NOT NULL DEFAULT '',
+  `feedback` VARCHAR(45) NOT NULL DEFAULT '',
+  `brand` VARCHAR(45) NOT NULL DEFAULT '',
+  `customerEmail` VARCHAR(45) NOT NULL DEFAULT '',
+  PRIMARY KEY(`productId`)
+)
+ENGINE = InnoDB;
